@@ -1,0 +1,11 @@
+{
+  "unbalanced_code": "E_UNBALANCED",
+  "period": "2026-09",
+  "booked": ["e1"],
+  "expected": {"bank": -6, "cash": 10, "fee": -4},
+  "entries": [
+    {"id": "e0", "account": "cash", "amount": 10, "side": "debit"},
+    {"id": "e1", "account": "bank", "amount": 6, "side": "credit"},
+    {"id": "e2", "account": "fee", "amount": 4, "side": "credit"}
+  ]
+}
